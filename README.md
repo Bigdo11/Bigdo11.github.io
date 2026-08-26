@@ -86,7 +86,7 @@ git push -u origin main
 문의 이메일을 바꾸려면 전체 치환:
 
 ```bash
-grep -rl "keundo403@gmail.com" . | xargs sed -i 's|keundo403@gmail\.com|새이메일|g'
+grep -rl "gaeingae@gmail.com" . | xargs sed -i 's|gaeingae@gmail.com|새이메일|g'
 ```
 
 사업자 정보는 각 HTML의 `.reg` / `.foot-grid` 블록과 `index.html` 상단 JSON-LD에 들어 있다.
